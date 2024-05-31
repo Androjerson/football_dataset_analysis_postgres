@@ -15,7 +15,7 @@ team_stats_create_table=("""CREATE TABLE IF NOT EXISTS team_stats(game_id INT RE
                          loc_indc VARCHAR , goals INT , xpct_goals NUMERIC , shots INT , shotsOnTarget INT , deep INT);""")
 
 player_stats_create_table=("""CREATE TABLE IF NOT EXISTS player_stats(game_id INT REFERENCES games, player_id INT REFERENCES players , goals INT , own_goal INT,
-                           shots INT , xpct_goals NUMERIC , xpct_goals_chains NUMERIC , assits INT , keypass INT);""")
+                           shots INT , xpct_goals NUMERIC , xpct_goals_chains NUMERIC , assists INT , keypass INT);""")
 
 #INSERT queries
 players_insert_query=("""INSERT INTO players(id,name)VALUES(%s,%s);""")
@@ -29,6 +29,17 @@ team_stats_insert_query=("""INSERT INTO team_stats(game_id,team_id,season,date,l
                          VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);""")
 player_stats_insert_query=("""INSERT INTO player_stats(game_id,player_id,goals,own_goal,shots,xpct_goals,xpct_goals_chains,assists,keypass)\
                            VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s);""")
+
+#TEST queries
+players_select=("""SELECT * FROM players LIMIT 5;""")
+teams_select=("""SELECT * FROM teams LIMIT 5;""")
+leagues_select=("""SELECT * FROM leagues LIMIT 5;""")
+games_select=("""SELECT * FROM games LIMIT 5;""")
+shots_select=("""SELECT * FROM shots LIMIT 5;""")
+team_stats_select=("""SELECT * FROM team_stats LIMIT 5;""")
+players_stats_select=("""SELECT * FROM players LIMIT 5;""")
+
+
 
 #SELECT queries
 top_players= ("""SELECT ps.player_id,p.name,SUM(ps.goals) AS total_goals FROM player_stats ps JOIN players p ON ps.player_id=p.id GROUP
