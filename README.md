@@ -47,3 +47,8 @@ Insert_Data.ipynb: Establishes connection with PostgreSQL with the help of psyco
                   Do some data cleaning and datatype casting.Load it into postgres database. Validate the data presence in table via test queries .Run the analysis query on it
 
 sql_queries.py : Create,Insert,Test and Select queries which is used in the above two files
+
+## Build ETL pipeline:
+
+1. Run the <b>Create Table.ipynb</b> to create the database and tables
+2. Run the <b>Insert_Data.ipynb</b> to load the data from csv file to PostgreSQL, run validataions and analysis
