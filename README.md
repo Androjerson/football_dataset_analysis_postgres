@@ -4,9 +4,9 @@
 Football dataset is  football-related data covering the Top5 leagues in Europe from 2014-2020. The analytics team wants to perform some major analysis such as 
 the top players scored the most goals.
 We as a data engineer, our role is 
-1.To get the data from source which is in CSV format
-2.Do data manipulation and data cleaning  with the help of pandas python library
-3.Load the data into PostgreSQL with the python postgres connector psycopg2
+1. To get the data from source which is in CSV format
+2. Do data manipulation and data cleaning  with the help of pandas python library
+3. Load the data into PostgreSQL with the python postgres connector psycopg2
 
 ## Dataset:
 
