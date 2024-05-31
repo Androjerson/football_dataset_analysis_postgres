@@ -10,6 +10,15 @@ We as a data engineer, our role is
 2. Do data manipulation and data cleaning  with the help of pandas python library
 3. Load the data into PostgreSQL with the python postgres connector psycopg2
 
+## Tools/Programming Languages used:
+
+1. Python
+2. PostgreSQL
+3. psycopg2 python PoastgreSQL connector
+4. pandas python library
+5. AWS secrets manager
+6. Boto3 AWS python SDK 
+
 ## Dataset:
 
 1. Players
