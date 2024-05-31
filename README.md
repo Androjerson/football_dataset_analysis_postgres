@@ -1,5 +1,7 @@
 # Football Dataset: data modelling with postgres and python libraries  
 
+![Project Architecture](https://github.com/Androjerson/football_dataset_analysis_postgres/blob/main/Project%20Architecture.gif)
+
 ## Project Description:
 Football dataset is  football-related data covering the Top5 leagues in Europe from 2014-2020. The analytics team wants to perform some major analysis such as 
 the top players scored the most goals.
