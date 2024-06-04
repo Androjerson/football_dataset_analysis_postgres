@@ -1,6 +1,6 @@
 # Football Dataset: data modelling with postgres and python libraries  
 
-![Project Architecture](https://github.com/Androjerson/football_dataset_analysis_postgres/blob/main/Project%20Architecture.gif)
+![Project Architecture](https://github.com/Androjerson/football_dataset_analysis_postgres/blob/main/Assets/Project%20Architecture.gif)
 
 ## Project Description:
 Football dataset is  football-related data covering the Top5 leagues in Europe from 2014-2020. The analytics team wants to perform some major analysis such as 
@@ -30,7 +30,7 @@ We as a data engineer, our role is
 7. PlayerStats
 
 ## Schema:
-![Schema Design](https://github.com/Androjerson/football_dataset_analysis_postgres/blob/main/schema_design.png)
+![Schema Design](https://github.com/Androjerson/football_dataset_analysis_postgres/blob/main/Assets/schema_design.png)
 
 ### Dimension Tables:
 * players:Basic players information
