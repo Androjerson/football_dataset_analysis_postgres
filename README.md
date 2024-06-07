@@ -6,10 +6,10 @@
 This project involves working with comprehensive football dataset covering the Top 5 leagues in Europe from 2014-2020. The analytics team aims to perform some major analysis such as the top players who have scored the most goals.
  
 As as a data engineer, my role involved:
-1)𝐃𝐚𝐭𝐚 𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐢𝐨𝐧 :Sourcing the data in 𝘊𝘚𝘝 format
-2)𝐃𝐚𝐭𝐚 𝐦𝐚𝐧𝐢𝐩𝐮𝐥𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐂𝐥𝐞𝐚𝐧𝐢𝐧𝐠:Using 𝘱𝘢𝘯𝘥𝘢𝘴 library in python
-3)𝐃𝐚𝐭𝐚 𝐌𝐨𝐝𝐞𝐥𝐥𝐢𝐧𝐠:Building data models based on the source and developing SQL queries
-4)𝐃𝐚𝐭𝐚 𝐋𝐨𝐚𝐝𝐢𝐧𝐠:Loading the cleaned and modelled data into 𝘗𝘰𝘴𝘵𝘨𝘳𝘦𝘚𝘘𝘓 using 𝘱𝘴𝘺𝘤𝘰𝘱𝘨2 adapter
+1) 𝐃𝐚𝐭𝐚 𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐢𝐨𝐧 :Sourcing the data in 𝘊𝘚𝘝 format
+2) 𝐃𝐚𝐭𝐚 𝐦𝐚𝐧𝐢𝐩𝐮𝐥𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐂𝐥𝐞𝐚𝐧𝐢𝐧𝐠:Using 𝘱𝘢𝘯𝘥𝘢𝘴 library in python
+3) 𝐃𝐚𝐭𝐚 𝐌𝐨𝐝𝐞𝐥𝐥𝐢𝐧𝐠:Building data models based on the source and developing SQL queries
+4) 𝐃𝐚𝐭𝐚 𝐋𝐨𝐚𝐝𝐢𝐧𝐠:Loading the cleaned and modelled data into 𝘗𝘰𝘴𝘵𝘨𝘳𝘦𝘚𝘘𝘓 using 𝘱𝘴𝘺𝘤𝘰𝘱𝘨2 adapter
 
 This project involves loading CSV files into a relational database for analysis which leverages the strengths of database systems in 𝐝𝐚𝐭𝐚 𝐢𝐧𝐭𝐞𝐠𝐫𝐢𝐭𝐲, 𝐩𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐚𝐧𝐝 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐪𝐮𝐞𝐫𝐲𝐢𝐧𝐠 . This approach gives us upperhand in analysing data over direct CSV analysis ,making it a superior choice for managing and analyzing large and complex datasets
 
