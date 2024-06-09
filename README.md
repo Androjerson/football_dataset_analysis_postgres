@@ -17,7 +17,7 @@ This project involves loading CSV files into a relational database for analysis 
 
 1. Python
 2. PostgreSQL
-3. psycopg2 python PoastgreSQL connector
+3. psycopg2 python PostgreSQL connector
 4. pandas python library
 5. AWS secrets manager
 6. Boto3 AWS python SDK 
